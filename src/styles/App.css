@@ -1,26 +1,37 @@
-.App header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  color: white;
-  padding: 0.5rem 1rem;
-}
-
 .page {
   text-align: center;
-  background-color: white;
   min-height: 100vh;
 }
 
-.content {
-  text-align: left;
+select.departureAirportId {
+  text-align: center;
   display: inline-block;
-  background-color: #ffffff;
   width: 100%;
-  max-width: 1232px;
-  padding: 16px;
+  max-width: 900px;
+  padding: 26px 0px 26px 0;
   box-sizing: border-box;
+  border-radius: 33px;
+}
+
+select {
+  border-radius: 33px;
+  height: 20px;
+  width: 80px;
+  border: solid rgb(170, 207, 227);
+}
+
+select.arrivalAirportId {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  max-width: 900px;
+  padding: 26px 0px 26px 0;
+  box-sizing: border-box;
+}
+
+.date-slct {
+  display: inline-block;
+  border-radius: 33px;
 }
 
 .App {
@@ -28,13 +39,7 @@
   flex-direction: column;
 }
 
-.plane-img {
-  margin: auto;
-  width: 400px;
-  height: 300px;
-  justify-content: center;
-}
-
 h2 {
   text-align: center;
+  font-size: 40px;
 }
