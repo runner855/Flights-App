@@ -4,45 +4,9 @@
   grid-gap: 16px;
 }
 
-.search-input {
-  width: 350px;
-  border: 2px solid #d1002e;
-  font-size: 28px;
-  display: inline-block;
-  outline: none;
-  border-radius: 6px 0 0 6px;
-}
-
-.search-input {
-  grid-column-start: 1;
-  grid-column-end: -1;
-}
-
-.search-input input {
-  width: 100%;
-  box-sizing: border-box;
-  justify-content: center;
-}
-
 .search-form {
   display: flex;
   flex-direction: row;
   justify-content: center;
   text-decoration: none;
-}
-
-.search-btn {
-  position: relative;
-  border: 2px solid #d1002e;
-  background-color: #d1002e;
-  color: rgb(176, 232, 232);
-  font-size: 28px;
-  display: inline-block;
-  outline: none;
-  border-radius: 0 6px 6px 0;
-}
-
-.search-btn:hover {
-  background-color: rgb(176, 232, 232);
-  color: #d1002e;
 }

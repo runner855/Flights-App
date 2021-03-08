@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "../styles/FlightsResults.css";
+import FlightDetails from "./FlightDetails";
 
 const FlightsResults = ({ results }) => {
   if (!results) {
@@ -8,13 +9,8 @@ const FlightsResults = ({ results }) => {
   } else {
     return (
       <>
-        {results.map((parsedResults) => (
-          <array
-            data-testid="space-pic"
-            className="card-img"
-            src={parsedResults}
-            alt="space-img"
-          />
+        {results.map((flights) => (
+          <FlightDetails key={flights.id} flights={flights} />
         ))}
       </>
     );
